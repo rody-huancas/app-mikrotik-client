@@ -3,7 +3,7 @@ import Offers from "../components/organs/Offers";
 
 export const ServicesPage = () => {
   return (
-    <div className="py-28 px-16">
+    <div className="pt-28 pb-10 px-16">
       <Offers />
       <div className="md:mt-32">
         <Membership/>

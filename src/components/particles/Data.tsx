@@ -15,10 +15,6 @@ export const NavLinks = [
     name: "Productos",
     url: "/products",
   },
-  {
-    name: "Contacto",
-    url: "/contact",
-  },
 ];
 
 export const HeroTexts = [
@@ -141,8 +137,8 @@ export const TestimonialTexts = {
 };
 
 export const BlogTexts = {
-  firstText: "Mantente Informado",
-  secondText: "Nuestras Últimas Noticias",
+  firstText: "Lo mejor en tecnología",
+  secondText: "Nuestros mejores productos",
   blogNews: [
     {
       caption: "Configuración de Redes",
@@ -195,10 +191,6 @@ export const FooterTexts = {
       {
         name: "Productos",
         url: "/products",
-      },
-      {
-        name: "Contacto",
-        url: "/contact",
       },
     ],
   },
