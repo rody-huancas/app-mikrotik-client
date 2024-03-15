@@ -30,9 +30,8 @@ const About = () => {
                 as="h1"
                 className="absolute text-zinc-500/20 md:-left-3 left-0 lg:text-9xl md:text-7xl text-6xl font-extrabold lg:-top-36 md:-top-20 -top-16 -z-10"
               >
-                01
+                Nosotros
               </Text>
-              Fade
             </div>
             <Text as="h2" className="text-zinc-200 mt-10 mb-4 text-lg">
               {AboutTexts.caption}
