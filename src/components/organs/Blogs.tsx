@@ -6,7 +6,7 @@ import Image2 from "../../assets/hero/2.jpg";
 import Image3 from "../../assets/hero/3.jpg";
 import { useCallback } from "react";
 import { Image } from "../atoms/Image";
-import { ChatsCircle, Clock } from "@phosphor-icons/react";
+import { sendMessageWsp } from "../../helpers/helper";
 
 const Blogs = () => {
   const renderImage = useCallback((element: number) => {
@@ -54,8 +54,8 @@ const Blogs = () => {
                 </Text>
               </div>
               <div className="flex justify-center px-6 pb-6 items-center">
-                <a href="" className="bg-indigo-600 w-full text-center py-2 text-white">
-                    Solicitar Información
+                <a href={sendMessageWsp(blog.title)} target="_blank" className="bg-indigo-600 w-full text-center py-2 text-white">
+                  Solicitar Información
                 </a>
               </div>
             </Card>
