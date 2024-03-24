@@ -170,6 +170,115 @@ export const BlogTexts = {
   ],
 };
 
+export const ProductsTexts = [
+  {
+    image: "/products/album_td.jpg",
+    title: "Album TD",
+    description: "Diseños de álbumes rápidos y sencillos."
+  },
+  {
+    image: "/products/aomei.jpg",
+    title: "Aomei",
+    description: "Software de partición de disco duro."
+  },
+  {
+    image: "/products/ccleaner.jpg",
+    title: "CCleaner",
+    description: "Herramienta para limpiar el PC.Protege su privacidad y brinda seguridad"
+  },
+  {
+    image: "/products/coreldraw.jpg",
+    title: "Coreldraw",
+    description: "Paquete completo para ilustración",
+  },
+  {
+    image: "/products/filmora.jpg",
+    title: "Wondershare Filmora X",
+    description: "Todas las herramientas para la edición de vídeos",
+  },
+  {
+    image: "/products/foxit.jpg",
+    title: "Foxit PDF Editor PRO",
+    description: "Editor de PDFS potente, y fácil de usar.",
+  },
+  {
+    image: "/products/internet_manager.jpg",
+    title: "Internet Download Manager",
+    description: "El mejor gestor de descagas con posibilidad de renaudar una descarga.",
+  },
+  {
+    image: "/products/lightpdf.jpg",
+    title: "Light PDF Editor",
+    description: "Permite editar, convertir, firmar y protejer los PDFs",
+  },
+  {
+    image: "/products/magix.jpg",
+    title: "Magix Vegas PRO",
+    description: "Administra todos los aspectos de creación de contenido",
+  },
+  {
+    image: "/products/nik_collection.jpg",
+    title: "NIK Collection By DXO",
+    description: "Edita fotografías para Photoshop, Lightroom y DXO Photolab",
+  },
+  {
+    image: "/products/office.jpg",
+    title: "Office Profesional PLUS",
+    description: "Incluye versiones actualizadas de las aplicaciones de office.",
+  },
+  {
+    image: "/products/power_iso.jpg",
+    title: "Power ISO",
+    description: "Procesa archivos de imagenes de CD/DVD/BD",
+  },
+  {
+    image: "/products/ram_saver.jpg",
+    title: "RAM Saver PRO",
+    description: "Desfragmenta memoria del sistama para un tiempo de acceso más rápido",
+  },
+  {
+    image: "/products/windows_10.jpg",
+    title: "Windows 10",
+    description: "Sistema operativo de computadoras personales.",
+  },
+  {
+    image: "/products/windows_11.jpg",
+    title: "Windows 11",
+    description: "Sistma operativo con incorporación de IA (Inteligena Artificial)",
+  },
+  {
+    image: "/products/winrar.jpg",
+    title: "Winrar",
+    description: "Aplicaicón para descompresión de archivos RAR y ZIP",
+  },
+]
+
+export const ServicesTexts = [
+  {
+    image: "/services/service_1.svg",
+    title: "INTERNET DEDICADO",
+    description: "Nuestro servicio se adapta a tus necesidades específicas, ofreciendo velocidades de carga y descarga ultra rápidas y un tiempo de actividad del 99.9%. Además, nuestro equipo de soporte técnico está disponible las 24 horas del día, los 7 días de la semana, para brindarte asistencia inmediata en caso de cualquier problema."
+  },
+  {
+    image: "/services/service_2.png",
+    title: "Internet para ZONAS RURALES (KIT STARLINK)",
+    description: "Este kit incluye una antena, un router, un cable y un adaptador para proporcionar acceso a Internet en áreas rurales donde las opciones tradicionales pueden ser limitadas."
+  },
+  {
+    image: "/services/service_3.png",
+    title: "Soporte",
+    services: [
+      { title: "- Enlaces inalámbricos punto (PTP)." },
+      { title: "- Balanceo de carga de líneas con recursividad y failover, balanceo PBR." },
+      { title: "- Configuración de administrador (servidor PPPoE/planes de velocidad/reuso/rafagas." },
+      { title: "- Diagnóstico y solución de red, desde router de borde - OLT - usuario final." },
+      { title: "- Configuración de (OLT) de todas marcas." },
+      { title: "- Servicio VPN para acceder de cualquier parte del mundo a tu red 100% segura." },
+      { title: "- Asesoría de equipamiento para una red inalámbrica y FTTH." },
+    ]
+  },
+]
+
 export const FooterTexts = {
   underLogoText:
     "Somos más que una empresa de tecnología; somos una comunidad dedicada a ofrecer soluciones innovadoras en conectividad y seguridad. Nuestra visión es crear un entorno tecnológico seguro y eficiente que impulse el crecimiento y el éxito de nuestros clientes.",
@@ -210,3 +319,4 @@ export const FooterTexts = {
   },
   copyright: "Derechos de Autor 2024. Todos los derechos reservados",
 };
+
