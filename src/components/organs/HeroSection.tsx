@@ -9,7 +9,7 @@ import { HeroTexts } from "../particles/Data";
 import { Text } from "../atoms/Text";
 import { Button } from "../atoms/Button";
 import { Slide, Zoom } from "react-awesome-reveal";
-import { ArrowCircleLeft, ArrowCircleRight, YoutubeLogo } from "@phosphor-icons/react";
+import { ArrowCircleLeft, ArrowCircleRight } from "@phosphor-icons/react";
 
 const HeroSection = () => {
   const sliderRef = useRef<Slider | null>();
